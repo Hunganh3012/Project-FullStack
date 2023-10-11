@@ -1,7 +1,5 @@
 import express from "express";
 
-var express = require("express");
-
 //cấu hình dự án
 let configViewEngine = (app) => {
     app.use(express.static("./src/public"));
@@ -10,4 +8,4 @@ let configViewEngine = (app) => {
     
 };
 
-module.export = configViewEngine;
+module.exports = configViewEngine;
