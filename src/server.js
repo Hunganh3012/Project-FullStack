@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 viewEngine(app);
 initWebRoutes(app);
 
-//require("dotenv").config(); để chạy được dòng ở dưới 
+//require("dotenv").config(); để chạy được dòng ở dưới
 let port = process.env.PORT || 6969; // if port === undefiend => port =6969;
 
 app.listen(port, () => {
